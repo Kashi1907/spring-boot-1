@@ -17,8 +17,18 @@ public class HelloWorldController {
 
     @GetMapping("/register")
 
-    public String showRegisterJsp(){
+    public String showRegisterJsp()
+    {
         return "register";
+
+    }
+
+    @GetMapping("/login")
+
+    public String showLoginJsp()
+    {
+        return "login";
+
     }
 
 
